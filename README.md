@@ -7,3 +7,6 @@ Crawler that scans all the websites on a given list and extracts, with the help 
 - BeautifulSoup
 - tqdm
 
+#Preview
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
