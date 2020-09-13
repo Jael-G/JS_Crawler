@@ -72,7 +72,7 @@ def GetMetrics(url, l):
 
 
 opts = Options()
-opts.binary_location = 'C:/Users/jaelo/Desktop/WC Research/Chrome-bin/chrome.exe'
+opts.binary_location = 'INSER PATH FOR CHROMIUM chrome.exe'
 driver = webdriver.Chrome(executable_path="chromedriver.exe", options=opts)
 
 
@@ -89,10 +89,10 @@ print('*************************************************************************
 
 entire_scripts=[]
 
-with open('C:/Users/jaelo/Desktop/alexatopsites/alexatop10.txt', mode='r') as f:
+with open('INSERT WEBSITE LIST PATH', mode='r') as f:
     content=f.read().splitlines()
 
-with open('C:/Users/jaelo/Desktop/WC Research/FinalData/data10.csv', mode='w', newline='') as f:
+with open('NAME FILE FOR OUTPUT OF DATA', mode='w', newline='') as f:
     fieldnames=['Site', 'Javascript Files', 'Headers']
     writer = csv.DictWriter(f, fieldnames=fieldnames)
     writer.writeheader()
