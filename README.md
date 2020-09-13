@@ -14,7 +14,7 @@ Crawler that scans all the websites on a given list and extracts, with the help 
 # Installation
 Clone repository:
 
-[git clone https://github.com/Jael-G/JS_Crawler]
+'''git clone https://github.com/Jael-G/JS_Crawler'''
 
 Go into de repository file:
 
